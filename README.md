@@ -1,4 +1,4 @@
 1ik415-laborationer
 ===================
 
-Laborationer i kursen 1ik415
+Det här repositoriet är till för Laborationer i kursen 1ik415.
