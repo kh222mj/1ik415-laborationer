@@ -25,29 +25,29 @@
                    <legend>Fråga</legend>
         
                     Ärendetyp:
-                    <select width="200">
+                    <select>
                         <option>Fråga</option>
                         <option>Beundransbrev</option>
                     </select>
                     <br/>
                     
                     Rubrik:
-                    <input type="text"/>
+                    <input type="text" name="Rubrik">
                     <br/>
                     
                     Fråga:
-                    <textarea cols="20" rows="1"></textarea>
+                    <textarea cols="20" rows="1" name="Text"></textarea>
                 </fieldset>      
                     
                 <fieldset>
                    <legend>Information om mig</legend>
                     
-                    Kontaka mig via mail <input type="checkbox">
+                   Kontaka mig via mail <input type="checkbox" name="Mail">
                     <br/>
-                    Kontaka mig via telefon <input type="checkbox">
+                   Kontaka mig via telefon <input type="checkbox" name="Telefon">
                 </fieldset>    
                 
-                <input type="submit" value="Skicka frågan"/>    
+                 <button>Skicka frågan</button>
    
             </form>
     
