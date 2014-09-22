@@ -52,17 +52,18 @@ h2 {
 	width: 1000px;
 	margin: 10px auto;
 	text-align: left;
+	background: #7282A8;
 }
 #top_header {
 	border-bottom: 1px solid black;
 	padding: 20px;
+	background: #D0D7E6;
 }
 #top_menu {
 	float: left;
 	width: 200px;
 	margin: 30px 0px;
 	padding: 20px;
-	border: 1px solid black;
 }
 #top_menu li {
 	padding: 20px;
@@ -79,11 +80,13 @@ h2 {
 	text-align: center;
 	padding: 20px;
 	border-top: 1px solid black;
+	background: #D0D7E6;
 }
 article {
 	border: 1px solid black;
 	padding: 20px;
 	margin-bottom: 15px;
+	background: #FFFFFF;
 }
 article footer {
 	text-align: right;
