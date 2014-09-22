@@ -57,7 +57,8 @@ h2 {
 #top_header {
 	border-bottom: 1px solid black;
 	padding: 20px;
-	background: #D0D7E6;
+	background: #2B406F;
+	color: #FFFFFF;
 }
 #top_menu {
 	float: left;
@@ -66,9 +67,26 @@ h2 {
 	padding: 20px;
 }
 #top_menu li {
-	padding: 20px;
+	padding: 10px;
 	list-style: none;
 	font: bold 14px tahoma;
+}
+#top_menu li a {
+	background: #2B406F;
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	text-align: center;
+	border: 1px solid black;
+	color: #FFFFFF;
+	line-height: 20px;
+}
+#top_menu li:hover > a {
+	background: #000000;
+}
+#active {
+	background: #000000;
 }
 #main_section {
 	float: left;
@@ -80,14 +98,21 @@ h2 {
 	text-align: center;
 	padding: 20px;
 	border-top: 1px solid black;
-	background: #D0D7E6;
+	background: #2B406F;
+	color: #FFFFFF;
 }
 article {
 	border: 1px solid black;
 	padding: 20px;
 	margin-bottom: 15px;
-	background: #FFFFFF;
+	background: #D0D7E6;
 }
 article footer {
 	text-align: right;
+}
+img {
+	padding: 20px;
+}
+#index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
+	background: #000000;
 }
