@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1 {
+	font: bold 20px Tahoma;
+}
+h2 {
+	font: bold 18px Tahoma;
+}
+#wrapper {
+	border: 1px solid black;
+	width: 1000px;
+	margin: 10px auto;
+	text-align: left;
+}
+#top_header {
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+#top_menu {
+	float: left;
+	width: 200px;
+	margin: 30px 0px;
+	padding: 20px;
+	border: 1px solid black;
+}
+#top_menu li {
+	padding: 20px;
+	list-style: none;
+	font: bold 14px tahoma;
+}
+#main_section {
+	float: left;
+	width: 660px;
+	margin: 30px; /* 720px, 280 left */
+}
+#the_footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid black;
+}
+article {
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer {
+	text-align: right;
+}
