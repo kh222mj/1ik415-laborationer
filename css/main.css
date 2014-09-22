@@ -68,6 +68,10 @@ h3 {
 	padding: 20px;
 	background: #2B406F;
 	color: #FFFFFF;
+	background-image: url("pics/logo_top1.png");
+}
+#top_header h1 {
+	margin-left: 100px;
 }
 #top_menu {
 	float: left;
@@ -109,6 +113,7 @@ h3 {
 	border-top: 1px solid black;
 	background: #2B406F;
 	color: #FFFFFF;
+	font-style: italic;
 }
 article {
 	border: 1px solid black;
@@ -119,6 +124,14 @@ article {
 article footer {
 	text-align: right;
 	font-style: italic;
+}
+article h2 {
+	background: url("pics/book_icon.png") no-repeat;
+	padding-left: 52px;
+	line-height: 50px;
+	text-decoration: underline;
+}
+	
 }
 img {
 	padding: 20px;
