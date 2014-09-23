@@ -56,6 +56,10 @@ h3 {
 	font: normal 16px Tahoma;
 	padding-bottom: 15px;
 }
+h4 {
+	font: bold 14px Tahoma;
+	padding-bottom: 15px;
+}
 #wrapper {
 	border: 1px solid black;
 	width: 1000px;
@@ -69,6 +73,7 @@ h3 {
 	background: #2B406F;
 	color: #FFFFFF;
 	background-image: url("pics/logo_top1.png");
+	text-decoration: underline;
 }
 #top_header h1 {
 	margin-left: 100px;
@@ -130,6 +135,8 @@ article h2 {
 	background: url("pics/book_icon.png") no-repeat;
 	padding-left: 52px;
 	line-height: 50px;
+}
+article h3 {
 	text-decoration: underline;
 }
 article video {
@@ -140,7 +147,12 @@ article video {
 article img {
 	margin: 10px;
 }
-#index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
+article dt {
+	text-decoration: underline;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+article #index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
 	background: #000000;
 }
 .right {
@@ -148,4 +160,24 @@ article img {
 }
 .left {
 	float: left;
+}
+table {
+	border: 1px solid black;
+}
+thead th {
+	border: 1px solid black;
+	padding: 5px;
+	font-weight: bold;
+}
+tbody td {
+	border: 1px solid black;
+	padding: 5px;
+}
+tfoot td {
+	padding: 5px;
+	text-align: center;
+}
+#presentation h3 {
+	padding: 0px;
+	padding-top: 10px;
 }
