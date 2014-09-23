@@ -124,6 +124,7 @@ article {
 article footer {
 	text-align: right;
 	font-style: italic;
+	margin: 5px;
 }
 article h2 {
 	background: url("pics/book_icon.png") no-repeat;
@@ -131,14 +132,20 @@ article h2 {
 	line-height: 50px;
 	text-decoration: underline;
 }
-	
+article video {
+	margin: 10px;
+	width 500px;
+	height: 300px;
 }
-img {
-	padding: 20px;
-}
-video {
-	padding: 20px;
+article img {
+	margin: 10px;
 }
 #index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
 	background: #000000;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
 }
