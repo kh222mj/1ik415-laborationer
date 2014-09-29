@@ -60,6 +60,7 @@ h4 {
 	font: bold 14px Tahoma;
 	padding-bottom: 15px;
 }
+/* Hela sidan */
 #wrapper {
 	border: 1px solid black;
 	width: 1000px;
@@ -78,6 +79,7 @@ h4 {
 #top_header h1 {
 	margin-left: 100px;
 }
+/* Style för menyn */
 #top_menu {
 	float: left;
 	width: 200px;
@@ -89,23 +91,91 @@ h4 {
 	list-style: none;
 	font: bold 14px tahoma;
 }
-#top_menu li a {
+/* index */
+#top_menu li .link1 {
 	background: #2B406F;
+	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -48px;
 	text-decoration: none;
 	display: block;
 	width: 125px;
 	height: 25px;
-	text-align: center;
+	text-align: right;
 	border: 1px solid black;
 	color: #FFFFFF;
 	line-height: 20px;
+	padding-right: 2px;
 }
-#top_menu li:hover > a {
-	background: #000000;
+/* laborationer */
+#top_menu li .link2 {
+	background: #2B406F;
+	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -144px;
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	text-align: right;
+	border: 1px solid black;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-right: 2px;
 }
-#active {
-	background: #000000;
+/* presentation */
+#top_menu li .link3 {
+	background: #2B406F;
+	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -239px;
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	text-align: right;
+	border: 1px solid black;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-right: 2px;
 }
+/* kontakt */
+#top_menu li .link4 {
+	background: #2B406F;
+	background-image: url(pics/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 -336px;
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	text-align: right;
+	border: 1px solid black;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-right: 2px;
+}
+/* hover för alla */
+#top_menu a:hover {
+	border: 1px solid white;
+}
+/* Bakgrundsflyttning för  */
+#top_menu li .link1:hover {
+	background-position: 0 0px;
+}
+/* Bakgrundsflyttning för  */
+#top_menu li .link2:hover {
+	background-position: 0 -96px;
+}
+/* Bakgrundsflyttning för  */
+#top_menu li .link3:hover {
+	background-position: 0 -191px;
+}
+/* Bakgrundsflyttning för  */
+#top_menu li .link4:hover {
+	background-position: 0 -288px;
+}
+/* Style för allt innehåll */
 #main_section {
 	float: left;
 	width: 660px;
@@ -120,6 +190,7 @@ h4 {
 	color: #FFFFFF;
 	font-style: italic;
 }
+/* Alla article taggar */
 article {
 	border: 1px solid black;
 	padding: 20px;
@@ -140,9 +211,9 @@ article h3 {
 	text-decoration: underline;
 }
 article video {
-	margin: 10px;
-	width: 500px;
-	height: 300px;
+	margin-right: 10px;
+	max-width: 100%;
+	max-height: 100%;
 }
 article img {
 	margin: 10px;
@@ -155,12 +226,18 @@ article dt {
 article #index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
 	background: #000000;
 }
+/* Klasser för att höger/vänsterställa bilder */
 .right {
 	float: right;
+	width:300px; 
+	height:400px;
 }
 .left {
 	float: left;
+	width:300px; 
+	height:400px;
 }
+/* Styles till tabeller */
 table {
 	border: 1px solid black;
 }
@@ -177,7 +254,24 @@ tfoot td {
 	padding: 5px;
 	text-align: center;
 }
-#presentation h3 {
+/* Style för presentationsidan */
+#content h3 {
 	padding: 0px;
+	padding-top: 10px;
+}
+/* Formulär */
+form {
+	padding: 5px;
+}
+form fieldset {
+	padding: 2px;
+}
+form legend {
+	text-decoration: underline;
+	font-weight: bold;
+	padding-top: 5px;
+}
+form h5 {
+	padding-bottom: 2px;
 	padding-top: 10px;
 }

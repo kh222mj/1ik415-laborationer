@@ -1,0 +1,31 @@
+#top_header
+{
+	display: none;
+}
+#top_menu
+{
+	display: none;
+}
+video
+{
+	display: none;
+}
+#the_footer
+{
+	display: none;
+}
+article
+{
+    border: none;
+    border-bottom: 1px solid black;
+}
+article h2 
+{
+	background: none;
+	padding-left: 0px;
+	
+}
+#wrapper
+{
+    border: none;
+}

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
         <title>Kontakt</title>
     </head>
     <body id="kontakt">
@@ -22,24 +23,24 @@
         </nav>
             
     <section id="main_section">
-        <h3>Mitt Formulär:</h3>
+        <article>
 
             <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
                <fieldset>
-                   <legend>Fråga</legend>
+                   <legend>Formulär</legend>
         
-                    Ärendetyp:
+                    <h5>Ärendetyp:</h5>
                     <select>
                         <option>Fråga</option>
                         <option>Beundransbrev</option>
                     </select>
                     <br/>
                     
-                    Rubrik:
+                    <h5>Rubrik:</h5>
                     <input type="text" name="Rubrik">
                     <br/>
                     
-                    Fråga:
+                    <h5>Fråga/Beundransbrev:</h5>
                     <textarea cols="20" rows="1" name="Text"></textarea>
                 </fieldset>      
                     
@@ -54,6 +55,7 @@
                  <button>Skicka frågan</button>
    
             </form>
+        </article>
     </section>
     
     <footer id="the_footer">
