@@ -155,24 +155,38 @@ h4 {
 	line-height: 20px;
 	padding-right: 2px;
 }
-/* hover för alla */
-#top_menu a:hover {
-	border: 1px solid white;
-}
+/* Alla hovereffekter */
 /* Bakgrundsflyttning för  */
 #top_menu li .link1:hover {
 	background-position: 0 0px;
+	border: 1px solid white;
 }
 /* Bakgrundsflyttning för  */
 #top_menu li .link2:hover {
 	background-position: 0 -96px;
+	border: 1px solid white;
 }
 /* Bakgrundsflyttning för  */
 #top_menu li .link3:hover {
 	background-position: 0 -191px;
+	border: 1px solid white;
 }
 /* Bakgrundsflyttning för  */
 #top_menu li .link4:hover {
+	background-position: 0 -288px;
+	border: 1px solid white;
+}
+/* Aktiva effekter för menyn */
+#index #top_menu li .link1{
+	background-position: 0 0px;
+}
+#laborationer #top_menu li .link2{
+	background-position: 0 -96px;
+}
+#presentation #top_menu li .link3{
+	background-position: 0 -191px;
+}
+#kontakt #top_menu li .link4{
 	background-position: 0 -288px;
 }
 /* Style för allt innehåll */
@@ -181,6 +195,7 @@ h4 {
 	width: 660px;
 	margin: 30px; /* 720px, 280 left */
 }
+/* Style för footer */
 #the_footer {
 	clear: both;
 	text-align: center;
@@ -223,9 +238,6 @@ article dt {
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
-article #index .link1, #laborationer .link2, #presentation .link3, #kontakt .link4 {
-	background: #000000;
-}
 /* Klasser för att höger/vänsterställa bilder */
 .right {
 	float: right;
@@ -259,7 +271,7 @@ tfoot td {
 	padding: 0px;
 	padding-top: 10px;
 }
-/* Formulär */
+/* Style för Formulär */
 form {
 	padding: 5px;
 }
