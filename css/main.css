@@ -75,6 +75,8 @@ h4 {
 	color: #FFFFFF;
 	background-image: url("pics/logo_top1.png");
 	text-decoration: underline;
+	background-repeat: no-repeat;
+	
 }
 #top_header h1 {
 	margin-left: 100px;
@@ -216,6 +218,7 @@ article footer {
 	text-align: right;
 	font-style: italic;
 	margin: 5px;
+	margin-top: 10px;
 }
 article h2 {
 	background: url("pics/book_icon.png") no-repeat;
@@ -286,4 +289,36 @@ form legend {
 form h5 {
 	padding-bottom: 2px;
 	padding-top: 10px;
+}
+/* scale och telefoner */
+@media screen and (max-width:481px){
+	#wrapper{
+		width: 100%;
+	}
+	#top_header {
+		width: 100%;
+	}
+	#top_header {
+		width: 100%;
+	}
+	#top_menu {
+		margin: 0px;
+	}
+	#main_section {
+		width: 90%;
+		margin: 5px;
+	}
+	#main_section article {
+		width: 90%;
+		margin: 5px;
+		margin-top: 0px;
+	}
+	#the_footer {
+		width: 100%;
+	}
+	#main_section img {
+		width: 50%;
+		height: auto;
+		margin-left: 0px;
+	}
 }
