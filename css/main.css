@@ -295,7 +295,7 @@ form h5 {
 		width: 100%;
 	}
 	#top_header {
-		width: 90%;
+		width: 100%;
 		margin-bottom: 25px;
 	}
 	#top_header h1 {
@@ -318,7 +318,7 @@ form h5 {
 		margin-top: 0px;
 	}
 	#the_footer {
-		width: 90%;
+		width: 100%;
 	}
 	#main_section img {
 		width: 50%;
