@@ -76,7 +76,6 @@ h4 {
 	background-image: url("pics/logo_top1.png");
 	text-decoration: underline;
 	background-repeat: no-repeat;
-	
 }
 #top_header h1 {
 	margin-left: 100px;
@@ -84,7 +83,6 @@ h4 {
 /* Style för menyn */
 #top_menu {
 	float: left;
-	width: 200px;
 	margin: 30px 0px;
 	padding: 20px;
 }
@@ -92,6 +90,7 @@ h4 {
 	padding: 10px;
 	list-style: none;
 	font: bold 14px tahoma;
+	display: block;
 }
 /* index */
 #top_menu li .link1 {
@@ -101,13 +100,13 @@ h4 {
 	background-position: 0 -48px;
 	text-decoration: none;
 	display: block;
-	width: 125px;
 	height: 25px;
-	text-align: right;
+	text-align: left;
 	border: 1px solid black;
 	color: #FFFFFF;
-	line-height: 20px;
+	line-height: 22px;
 	padding-right: 2px;
+	padding-left: 25px;
 }
 /* laborationer */
 #top_menu li .link2 {
@@ -117,13 +116,13 @@ h4 {
 	background-position: 0 -144px;
 	text-decoration: none;
 	display: block;
-	width: 125px;
 	height: 25px;
-	text-align: right;
+	text-align: left;
 	border: 1px solid black;
 	color: #FFFFFF;
-	line-height: 20px;
+	line-height: 22px;
 	padding-right: 2px;
+	padding-left: 25px;
 }
 /* presentation */
 #top_menu li .link3 {
@@ -133,13 +132,13 @@ h4 {
 	background-position: 0 -239px;
 	text-decoration: none;
 	display: block;
-	width: 125px;
 	height: 25px;
-	text-align: right;
+	text-align: left;
 	border: 1px solid black;
 	color: #FFFFFF;
-	line-height: 20px;
+	line-height: 22px;
 	padding-right: 2px;
+	padding-left: 25px;
 }
 /* kontakt */
 #top_menu li .link4 {
@@ -149,13 +148,13 @@ h4 {
 	background-position: 0 -336px;
 	text-decoration: none;
 	display: block;
-	width: 125px;
 	height: 25px;
-	text-align: right;
+	text-align: left;
 	border: 1px solid black;
 	color: #FFFFFF;
-	line-height: 20px;
+	line-height: 22px;
 	padding-right: 2px;
+	padding-left: 25px;
 }
 /* Alla hovereffekter */
 /* Bakgrundsflyttning för  */
@@ -291,30 +290,35 @@ form h5 {
 	padding-top: 10px;
 }
 /* scale och telefoner */
-@media screen and (max-width:481px){
+@media screen and (max-width:480px){
 	#wrapper{
 		width: 100%;
 	}
 	#top_header {
-		width: 100%;
+		width: 90%;
+		margin-bottom: 25px;
 	}
-	#top_header {
-		width: 100%;
+	#top_header h1 {
+		margin-right: 25px;
 	}
 	#top_menu {
 		margin: 0px;
+		width: 100%;
+		padding: 0px;
+	}
+	#top_menu li {
+		padding: 5px;
 	}
 	#main_section {
-		width: 90%;
+		width: 99%;
 		margin: 5px;
 	}
 	#main_section article {
-		width: 90%;
-		margin: 5px;
+		margin-right: 5px;
 		margin-top: 0px;
 	}
 	#the_footer {
-		width: 100%;
+		width: 90%;
 	}
 	#main_section img {
 		width: 50%;
