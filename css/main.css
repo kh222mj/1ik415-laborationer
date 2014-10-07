@@ -291,12 +291,15 @@ form h5 {
 }
 /* scale och telefoner */
 @media screen and (max-width:480px){
-	#wrapper{
+	#wrapper {
 		width: 100%;
+		margin-top: 0px;
 	}
 	#top_header {
 		width: 100%;
 		margin-bottom: 25px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	#top_header h1 {
 		margin-right: 25px;
@@ -319,6 +322,8 @@ form h5 {
 	}
 	#the_footer {
 		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	#main_section img {
 		width: 50%;
