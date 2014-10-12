@@ -206,6 +206,17 @@ h4 {
 	color: #FFFFFF;
 	font-style: italic;
 }
+/* Kommentarer */
+#comments {
+	display: block;
+	margin-top: 10px;
+}
+#comments p {
+	font-style: italic;
+}
+#comments h4 {
+	padding: 2px;
+}
 /* Alla article taggar */
 article {
 	border: 1px solid black;
