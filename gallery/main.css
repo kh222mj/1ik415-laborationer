@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#container {
+	margin: auto;
+
+}
+#images {
+	background: #9FEC97;
+    height: 2500px;
+}
+a {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: 70px;
+	margin-top: 150px;
+	float: left;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: #4FA2FF;
+    transform: rotate(7deg);
+    transition: all 1s ease;
+}
+a img {
+	width: 100%;
+	height: 100%;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 20px;
+    padding-bottom: 50px;
+    background: #FFFFFF;
+}
+a:before {
+    content: attr(title);
+    position: absolute;
+    margin-top: 270px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+a:hover {
+	transform: scale(2) rotate(0deg) translate(50px);
+	z-index: 10;
+}
+a:nth-child(4n) img {
+	padding-bottom: 100px;
+}
+a:nth-child(2n) {
+	transform: rotate(21deg);
+	z-index: 5;
+}
+
